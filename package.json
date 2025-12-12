@@ -1,0 +1,39 @@
+{
+  "name": "test-got-api-request-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for GOT as API request tool.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "ts-node src/index.ts",
+  "test": "jest",
+  "test:watch": "jest --watch",
+  "logger": "ts-node src/unittests/test_logger.ts",
+  "upload": "ts-node src/unittests/test_uploadfile.ts"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malconb/test-got-api-request-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malconb/test-got-api-request-poc/issues"
+  },
+  "homepage": "https://github.com/Malconb/test-got-api-request-poc#readme",
+  "dependencies": {
+    "got": "^14.6.5"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/got": "^9.6.12",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.2",
+    "dotenv": "^17.2.3",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
